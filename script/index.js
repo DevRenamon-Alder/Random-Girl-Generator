@@ -61,28 +61,28 @@ hairColor = "";
 const decideHairColor = () => {
     hairColorNum = rando(7);
     if (hairColorNum === 0) {
-        hairColor = "neon green";
+        hairColor = "blonde";
         document.getElementById("hair-color").innerHTML = hairColor;
     } else if (hairColorNum === 1) {
-        hairColor = "pastel orange";
+        hairColor = "brown";
         document.getElementById("hair-color").innerHTML = hairColor;
     } else if (hairColorNum === 2) {
-        hairColor = "wormy beige";
+        hairColor = "auburn";
         document.getElementById("hair-color").innerHTML = hairColor;
     } else if (hairColorNum === 3) {
-        hairColor = "magenta";
+        hairColor = "red";
         document.getElementById("hair-color").innerHTML = hairColor;
     } else if (hairColorNum === 4) {
-        hairColor = "dull grey";
+        hairColor = "dirty blonde";
         document.getElementById("hair-color").innerHTML = hairColor;
     } else if (hairColorNum === 5) {
-        hairColor = "simply yellow";
+        hairColor = "black";
         document.getElementById("hair-color").innerHTML = hairColor;
     } else if (hairColorNum === 6) {
-        hairColor = "sandy beige";
+        hairColor = "platinum blonde";
         document.getElementById("hair-color").innerHTML = hairColor;
     } else if (hairColorNum === 7) {
-        hairColor = "verdant green";
+        hairColor = "dark red";
         document.getElementById("hair-color").innerHTML = hairColor;
     } else {
         console.log("invalid hairColorNum");
@@ -110,8 +110,8 @@ const decideHairStyle = () => {
         hairStyle = "buzzcut";
         document.getElementById("hair-style").innerHTML = "a " + hairStyle;
     } else if (hairStyleNum === 4) {
-        hairStyle = "anime gokuesque";
-        document.getElementById("hair-style").innerHTML = "an " + hairStyle + " haircut";
+        hairStyle = "spiky";
+        document.getElementById("hair-style").innerHTML = "a " + hairStyle + " haircut";
     } else if (hairStyleNum === 5) {
         hairStyle = "short, simple";
         document.getElementById("hair-style").innerHTML = "a " + hairStyle + " haircut";
@@ -138,7 +138,7 @@ const decideClothesAdj = () => {
         clothes = "ragged";
         document.getElementById("clothes").innerHTML = clothes;
     } else if (clothesNum === 3) {
-        clothes = "ancient";
+        clothes = "ancient looking";
         document.getElementById("clothes").innerHTML = clothes;
     } else if (clothesNum === 4) {
         clothes = "overly casual";
@@ -181,13 +181,13 @@ const decideUnique = () => {
         unique = "eyes";
         document.getElementById("unique").innerHTML = "unique " + unique;
     } else if (uniqueNum === 3) {
-        unique = "teeth";
+        unique = "glasses";
         document.getElementById("unique").innerHTML = "unique " + unique;
     } else if (uniqueNum === 4) {
         unique = "walking stick";
         document.getElementById("unique").innerHTML = "a unique " + unique;
     } else if (uniqueNum === 5) {
-        unique = "piercing/s";
+        unique = "pin/badge";
         document.getElementById("unique").innerHTML = "a unique " + unique;
     } else {
         console.log("invalid uniqueNum");
@@ -203,7 +203,7 @@ face = "";
 const decideFaceTrait = () => {
     faceNum = rando(5);
     if (faceNum === 0) {
-        face = "bitchy";
+        face = "mean";
         document.getElementById("face").innerHTML = face;
     } else if (faceNum === 1) {
         face = "coy";
