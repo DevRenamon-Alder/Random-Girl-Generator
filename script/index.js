@@ -31,7 +31,7 @@ bodyNum = 0;
 body = "";
 
 const decideBodyType = () => {
-    bodyNum = rando(4);
+    bodyNum = rando(3);
     if (bodyNum === 0) {
         body = "fat";
         document.getElementById("body-type").innerHTML = body;
@@ -43,9 +43,6 @@ const decideBodyType = () => {
         document.getElementById("body-type").innerHTML = body;
     } else if (bodyNum === 3) {
         body = "toned";
-        document.getElementById("body-type").innerHTML = body;
-    } else if (bodyNum === 4) {
-        body = "muscly";
         document.getElementById("body-type").innerHTML = body;
     } else {
         console.log("invalid bodyNum");
