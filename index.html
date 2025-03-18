@@ -2,20 +2,34 @@
 <html>
     <head>
         <title>Weird Girl Generator</title>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="./css/style.css">
         <script src="https://cdn.jsdelivr.net/gh/nastyox/Rando.js@master/code/plain-javascript/2.0.0/rando-min.js"></script>
     </head>
-    <body>
-        <h1>Weird Girl Generator</h1>
-        <div>
-            <p>Physical Description: The generated girl has <span id="height"></span> 
-                <span id="body-type"></span> body and <span id="hair-color"></span> hair in 
-                <span id="hair-style"></span>. She dresses in <span id="clothes"></span> clothes, and 
-                has <span id="unique"></span>. Her face looks <span id="face"></span>.
+    <h1>Weird Girl Generator</h1>
+    <main>
+        <div class="container">
+            <p class="name">Name: <span id="name"></span></p>
+            <!--Name: Lana-->
+            <p class="physical-desc">Physical Description: The generated girl is <span id="height"></span> 
+                <span id="body-type"></span> girl with <span id="hair-color"></span> hair in 
+                <span id="hair-style"></span>. She dresses in <span id="clothes"></span> clothes, and has
+                <span id="unique"></span>.
             </p>
-            <!--Physical Description: The generated girl has a fat body with blue hair in a 
-                bob haircut. She dresses in goth clothes, and has a unique scar. Her face looks innocent.-->
+            <!--Physical Description: The generated girl is a tall chubby girl with brown hair in a 
+                bob haircut. She dresses in goth clothes, and has a unique handbag.-->
+            <p class="interest-1">Interest One: <span id="interest-1"></span></p>
+            <!--Interest One: Classical Literature-->
+            <p class="interest-2">Interest Two: <span id="interest-2"></span></p>
+            <!--Interest Two: Animals-->
+            <p class="hobby">Hobby: <span id="hobby"></span></p>
+            <!--Hobby: Dice Making-->
+            <p class="fun-fact">Fun Fact: <span id="fun-fact"></span></p>
+            <!--Fun Fact: Once wrestled a bear and narrowly survived-->
+            <p class="trait-1">Personality Trait One: <span id="trait-one"></span></p>
+            <!--Personality Trait One: Adventurous-->
+            <p class="trait-2">Personality Trait Two: <span id="trait-two"></span></p>
+            <!--Personality Trait Two: Reckless-->
         </div>
-        <script src="./script/index.js"></script>
-    </body>
+        <script src="./script/script.js"></script>
+    </main>
 </html>
